@@ -1,0 +1,1 @@
+This simple Chrome extension collapses all comments thread on Reddit. Just cause that's the way I browse it. 

@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Reddit Depth = 1",
+  "description": "This extension adds the parameter depth=1 to all reddit urls.",
+  "version": "1.0",
+  "background": {
+    "persistent": true,
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "tabs",
+    "webRequest",
+    "webRequestBlocking",
+    "*://*.reddit.com/"
+  ]
+}
